@@ -1,5 +1,8 @@
 [
-  {"id": "1", "nombre": "Producto A", "descripcion": "Descripción A", "precio": 1000, "imagen": "https://via.placeholder.com/150"},
-  {"id": "2", "nombre": "Producto B", "descripcion": "Descripción B", "precio": 2000, "imagen": "https://via.placeholder.com/150"},
-  {"id": "3", "nombre": "Producto C", "descripcion": "Descripción C", "precio": 3000, "imagen": "https://via.placeholder.com/150"}
+  {"id": "1", "nombre": "Laptop Dev Pro", "descripcion": "Laptop de alto rendimiento para desarrollo. Procesador Intel i7, 16GB RAM, SSD 512GB", "precio": 89990, "imagen": "https://via.placeholder.com/150?text=Laptop"},
+  {"id": "2", "nombre": "Monitor Ultrawide 34\"", "descripcion": "Monitor gaming ultrawide. Resolución 3440x1440, 144Hz, IPS", "precio": 54990, "imagen": "https://via.placeholder.com/150?text=Monitor"},
+  {"id": "3", "nombre": "Teclado Mecánico RGB", "descripcion": "Teclado mecánico con switches Cherry MX, retroiluminación RGB", "precio": 12990, "imagen": "https://via.placeholder.com/150?text=Teclado"},
+  {"id": "4", "nombre": "Mouse Inalámbrico Pro", "descripcion": "Mouse inalámbrico de precisión. 16000 DPI ajustable, batería 50 horas", "precio": 5990, "imagen": "https://via.placeholder.com/150?text=Mouse"},
+  {"id": "5", "nombre": "Headset Gamer HyperX", "descripcion": "Headset inalámbrico con micrófono. Sonido 7.1 surround, cancelación ruido", "precio": 18990, "imagen": "https://via.placeholder.com/150?text=Headset"},
+  {"id": "6", "nombre": "Webcam 4K", "descripcion": "Cámara web profesional. Resolución 4K, 60fps, micrófono integrado", "precio": 8990, "imagen": "https://via.placeholder.com/150?text=Webcam"}
 ]

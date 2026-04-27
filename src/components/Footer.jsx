@@ -3,7 +3,7 @@ export default function Footer(){
   return (
     <footer>
       <div>
-        <strong>Empresa Ejemplo S.A.</strong>
+        <strong>Pre Entrega</strong>
         <p>Contacto: contacto@empresa.com | Tel: 123456789</p>
         <div className="footer-personas">
           <div className="persona">Nombre: Ana<br/>Rol: Desarrolladora</div>

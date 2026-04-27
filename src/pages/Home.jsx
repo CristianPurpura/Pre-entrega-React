@@ -3,7 +3,7 @@ export default function Home(){
   return (
     <div>
       <h2>Bienvenido</h2>
-      <p>Página principal de la pre-entrega.</p>
+      <p>Cristian Purpura Pre-Entrega.</p>
     </div>
   )
 }
