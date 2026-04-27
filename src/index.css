@@ -1,0 +1,8 @@
+* { box-sizing: border-box; }
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+header, footer { background: #222; color: #fff; padding: 1rem; }
+nav a { color: #fff; margin-right: 1rem; text-decoration: none; }
+.container { padding: 1rem; }
+.producto { border: 1px solid #ddd; padding: 1rem; margin: 0.5rem; display: inline-block; width: 200px; vertical-align: top; }
+.footer-personas { display: flex; gap: 1rem; }
+.persona { background: #333; padding: 0.5rem; border-radius: 4px; }
