@@ -3,9 +3,9 @@ import Header from './Header'
 import Footer from './Footer'
 export default function Layout({children}){
   return (
-    <div>
+    <div style={{display:'flex',flexDirection:'column',minHeight:'100vh'}}>
       <Header />
-      <main className="container">{children}</main>
+      <main className="container" style={{flex:1}}>{children}</main>
       <Footer />
     </div>
   )

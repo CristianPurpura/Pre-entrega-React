@@ -1,38 +1,50 @@
 # Pre entrega React
 
-Proyecto generado con Vite. Instrucciones:
+Proyecto ecommerce con Vite y React.
 
-Instalar dependencias:
+## Instalar dependencias
 
 ```bash
 npm install
 ```
 
-Ejecutar en desarrollo:
+## Desarrollo
 
 ```bash
 npm run dev
 ```
 
-Deploy sugerido: Netlify
-
-Instrucciones rápidas de despliegue (Netlify):
-
-- Crear un repositorio remoto y hacer push (ej.: `git remote add origin <tu-repo>` y `git push -u origin main`).
-- En Netlify, elegir "New site from Git" y conectar el repositorio.
-- Configurar build command: `npm run build` y publish directory: `dist`.
-
-Comandos útiles:
+## Build para producción
 
 ```bash
-# instalar dependencias
-npm install
-
-# desarrollo
-npm run dev
-
-# build para producción
 npm run build
 ```
 
-Archivo de productos local: `public/productos.json`
+## Deploy en Netlify
+
+1. Hacer push a GitHub:
+
+```bash
+git remote add origin https://github.com/tu-usuario/Pre-entrega-React.git
+git branch -M main
+git push -u origin main
+```
+
+2. En Netlify:
+   - Ir a https://app.netlify.com
+   - Elegir "New site from Git"
+   - Conectar repositorio GitHub
+   - Build command: `npm run build`
+   - Publish directory: `dist`
+   - Deploy
+
+3. Compartir URL de Netlify generado.
+
+## Características
+
+- Catálogo de 6 productos informáticos
+- Carrito con Context API
+- Ruteo con react-router-dom (/, /productos, /producto/:id, /carrito)
+- Layout consistente con Header, Nav, Footer
+- Información de 3 personas en footer
+
