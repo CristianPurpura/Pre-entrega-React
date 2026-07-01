@@ -15,11 +15,17 @@ export function ProveedorCarrito({children}){
   function quitarDelCarrito(id){
     setCarrito(prev=> prev.filter(p=> p.producto.id !== id))
   }
+  function vaciarCarrito(){
+    setCarrito([])
+  }
   function cantidadTotal(){
     return carrito.reduce((s, i)=> s + i.cantidad, 0)
   }
+  function precioTotal(){
+    return carrito.reduce((s, i)=> s + i.cantidad * i.producto.precio, 0)
+  }
   return (
-    <CartContext.Provider value={{carrito, agregarAlCarrito, quitarDelCarrito, cantidadTotal}}>
+    <CartContext.Provider value={{carrito, agregarAlCarrito, quitarDelCarrito, vaciarCarrito, cantidadTotal, precioTotal}}>
       {children}
     </CartContext.Provider>
   )
