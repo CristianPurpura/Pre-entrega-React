@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Helmet } from 'react-helmet-async'
 import { useNavigate } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
+import { missingFirebaseEnvKeys } from '../firebase/config'
 
 export default function Login() {
   const navegar = useNavigate()
@@ -43,7 +44,7 @@ export default function Login() {
         <p className="muted">
           {isFirebaseConfigured
             ? 'Autenticacion conectada con Firebase.'
-            : 'Sin variables de Firebase: se usa modo local de prueba.'}
+            : `Sin variables de Firebase: se usa modo local de prueba. Faltan: ${missingFirebaseEnvKeys.join(', ') || 'ninguna'}`}
         </p>
 
         <form onSubmit={onSubmit} className="auth-form">
